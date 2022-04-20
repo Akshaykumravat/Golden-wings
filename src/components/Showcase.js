@@ -1,4 +1,5 @@
 import React from 'react'
+import Destinations from './Destinations'
 
 const Showcase = () => {
   return (

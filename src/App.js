@@ -7,6 +7,9 @@ import Footer from './components/Footer'
 import Login from './components/Login.js'
 import SignUp from './components/SignUp'
 import Error from './components/Error'
+import Book from './components/Book'
+import RecordList from './components/ShowTicket'
+import Change from './components/Change'
 
 function App() {
   return (
@@ -21,8 +24,21 @@ function App() {
         <Route path='/login'>
           <Login />
         </Route>
+        <Route path='/showcase'>
+          <Showcase />
+          <Destinations />
+        </Route>
+        <Route path='/show'>
+          <RecordList />
+        </Route>
         <Route path='/signup'>
           <SignUp />
+         </Route>
+        <Route path='/book'>
+          <Book />
+        </Route>
+        <Route path='/change'>
+          <Change />
         </Route>
         <Route path='*'>
           <Error />

@@ -1,0 +1,23 @@
+{
+  "data": [
+    {
+      "username": "anuj",
+      "email": "anuj@gmail.com",
+      "password": "anuj",
+      "id": 2
+    },
+    {
+      "username": "pushpendra",
+      "email": "push@gmail.com",
+      "password": "fdsfsdf",
+      "id": 3
+    },
+    {
+      "username": "anand",
+      "email": "a@gmail.com",
+      "password": "bro",
+      "id": 4
+    }
+  ],
+  "tickets": []
+}
